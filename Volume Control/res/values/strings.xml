@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--   
+    Created by Andrea Mancini 
+    mail: mancio@alice.it
+    date: 08/01/2012
+    
+	This file is part of Volume Control.
+
+    Volume Control is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Volume Control is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Volume Control.  If not, see <http://www.gnu.org/licenses/>.
+-->    
+
+<resources>
+
+    <string name="title">Volume Control</string>
+    <string name="app_name">Volume Control</string>
+    <string name="button1">+</string>
+    <string name="button2">-</string>
+    <string name="button3">SET</string>
+    <string name="toggle">SET</string>
+    <string name="button4">HELP</string>
+    
+    <string name="title_h">VOLUME CONTROL</string>
+	<string name="intro_h">
+	    WELCOME!!!! Are you invoking the hell because you have broken
+	    the volume buttons? No problem :) with this simple application
+	    you can control the volume directly from your desktop. This 
+	    program is licensed under GPL V3 
+	</string>
+	<string name="guide_title_h">INSTRUCTION</string>
+	<string name="guide1_h">
+	    - size the widget to the best fit (min size 100x100dip)
+	</string>
+	<string name="guide2_h">    
+	        - touch the set button to select the stream 
+	        (change system, ring, music, all volume channels)
+	</string>    
+	<string name="guide3_h">- use + button to raise stream volume</string>
+	<string name="guide4_h">- use - button to lower stream volume</string>
+	<string name="guide5_h">- if you are here you know how to use help button :)</string>
+	<string name="guide6_h">
+	    - use the center-bottom button to mute and unmute
+	    the selected stream (old volume value will be stored and replaced after unmute)
+	</string>
+	<string name="version">Version 1.00 by Mancio</string>
+	
+	<string name="link">VISIT MY SITE!</string>
+	<string name="close">Close</string>
+	
+	<string name="set_title">SELECT STREAM</string>
+	<string name="set_guide">Select the stream that you want control</string>
+	<string name="radio1">MUSIC</string>
+	<string name="radio2">RINGTONES</string>
+	<string name="radio3">ALL CHANNELS</string>
+	
+	
+</resources>

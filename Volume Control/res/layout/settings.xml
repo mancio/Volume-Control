@@ -1,0 +1,76 @@
+<!--   
+    Created by Andrea Mancini 
+    mail: mancio@alice.it
+    date: 08/01/2012
+    
+	This file is part of Volume Control.
+
+    Volume Control is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Volume Control is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Volume Control.  If not, see <http://www.gnu.org/licenses/>.
+-->    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_title"
+            android:layout_gravity="center"
+            android:padding="5dip"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dip"
+            android:text="@string/set_guide"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <RadioGroup
+			android:layout_width="fill_parent"
+ 			android:layout_height="wrap_content"
+ 			android:orientation="vertical"
+ 			android:id="@+id/radio_buttons">
+        
+        	<RadioButton
+            	android:id="@+id/radioButton1"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/radio1" />
+
+        	<RadioButton
+            	android:id="@+id/radioButton2"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+           		android:text="@string/radio2" />
+
+        	<RadioButton
+            	android:id="@+id/radioButton3"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/radio3" />
+		</RadioGroup>
+        
+        <Button
+            	android:id="@+id/button1"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:text="@string/close" />
+		
+	</LinearLayout>

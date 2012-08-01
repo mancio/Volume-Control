@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   
+    Created by Andrea Mancini 
+    mail: mancio@alice.it
+    date: 08/01/2012
+    
+	This file is part of Volume Control.
+
+    Volume Control is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Volume Control is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Volume Control.  If not, see <http://www.gnu.org/licenses/>.
+-->    
+	
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+	
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+	
+
+
+    	
+    
+
+			<!--  app name -->
+    
+    		<TextView
+        		android:id="@+id/textView11"
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:layout_gravity="center"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:padding="3dip"
+        		android:text="@string/title_h"/>
+			<TextView
+       			android:id="@+id/textView22"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_gravity="center"
+        		android:text="@string/intro_h"
+        		android:padding="5dip"
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+ 			<!-- instruction -->   
+    
+    		<TextView
+        		android:id="@+id/textView33"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="@string/guide_title_h"
+        		android:padding="5dip"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    		<TextView
+        		android:id="@+id/textView44"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:text="@string/guide1_h" />
+    		<TextView
+        		android:id="@+id/textView55"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:text="@string/guide2_h" />
+    		<TextView
+        		android:id="@+id/textView66"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:text="@string/guide3_h" />
+    		<TextView
+        		android:id="@+id/textView77"
+       			android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:text="@string/guide4_h" />
+    		<TextView
+        		android:id="@+id/textView88"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:text="@string/guide5_h" />
+    		<TextView
+        		android:id="@+id/textView99"
+       			android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:text="@string/guide6_h" />
+
+    
+ 			<!-- version -->   
+    
+    		<TextView
+        		android:id="@+id/textView100"
+        		android:layout_width="wrap_content"
+       			android:layout_height="wrap_content"
+        		android:textAppearance="?android:attr/textAppearanceSmall"
+        		android:padding="5dip"
+        		android:text="@string/version" />
+    		
+    		<!-- visit site and close -->
+
+    		<Button
+        		android:id="@+id/button11"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/link" />
+
+    		<Button
+       			android:id="@+id/button22"
+        		android:layout_width="fill_parent"
+        		android:layout_height="54dp"
+        		android:text="@string/close" />
+
+
+</LinearLayout>
+</ScrollView>
